@@ -15,7 +15,7 @@ public class Gaulois {
 		public void parler(String texte) {
 		System.out.println(prendreParole() + "« " + texte + "»");
 		}
-		public String prendreParole() {
+		private String prendreParole() {
 		return "Le gaulois " + nom + " : ";
 		}
 		public void frapper(Romain romain) {
